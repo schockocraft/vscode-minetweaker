@@ -53,6 +53,14 @@
 			<string>comment.line.number-sign</string>
 		</dict>
 		<dict>
+			<key>comment</key>
+			<string>inline comments</string>
+			<key>match</key>
+			<string>\s*((//).*$\n?)</string>
+			<key>name</key>
+			<string>comment.line.double-slash</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>\/\*</string>
 			<key>beginCaptures</key>
